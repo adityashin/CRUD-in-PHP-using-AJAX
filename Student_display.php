@@ -24,7 +24,7 @@ if(isset($_POST['readrecord'])){
         <td>". $data['age']."</td>
         <td>". $data['email'] ."</td>
         <td>
-          <button class='btn btn-primary' onclick='updateuser(".$data['id'] .")' >Update</button>
+          <button class='btn btn-primary' onclick='getuserdetails(".$data['id'] .")' >Update</button>
         </td>
         <td>
         <button class='btn btn-danger' onclick='deleteuser(".$data['id'] .")'>Delete</button>
